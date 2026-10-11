@@ -68,7 +68,7 @@ A cloud operations project combining infrastructure provisioning, Linux monitori
 
 **Project repository:** [View CloudOps source code](https://github.com/Suraj-dot-wq/CloudOps-Self-Healing-Monitoring)
 
-**Project screenshots:** Add genuine Grafana dashboards, Prometheus target status, and service-recovery logs to an `assets/` folder in this repository.
+**Project screenshots:** 
 
 ---
 
@@ -88,7 +88,7 @@ A cloud operations project combining infrastructure provisioning, Linux monitori
 Atria Institute of Technology, Bengaluru  
 2023–2027
 
-**Certification:** AWS Cloud Practitioner — include the exact credential name and issuer that match your certificate.
+**Certification:** AWS Cloud Practitioner Essential Batch
 
 ---
 
@@ -97,8 +97,8 @@ Atria Institute of Technology, Bengaluru
 I'm interested in connecting with cloud engineers, DevOps professionals, recruiters, and teams working on cloud infrastructure and automation.
 
 - **GitHub:** [Suraj-dot-wq](https://github.com/Suraj-dot-wq)
-- **LinkedIn:** [Add your LinkedIn profile URL](www.linkedin.com/in/ghadage-suraj-ganpat)
-- **Email:** [Add your professional email](surajghadage2004@gmail.com)
+- **LinkedIn:** [www.linkedin.com/in/ghadage-suraj-ganpat](www.linkedin.com/in/ghadage-suraj-ganpat)
+- **Email:** [surajghadage2004@gmail.com](surajghadage2004@gmail.com)
 
 ---
 
