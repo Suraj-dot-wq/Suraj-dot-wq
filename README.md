@@ -48,8 +48,7 @@ A containerized full-stack notes application with an automated CI/CD workflow.
 
 **Project repository:** [View NexaVault source code](https://github.com/Suraj-dot-wq/Personal-Notes-App)
 
-**Project screenshots:** Add genuine screenshots of the running application, Jenkins pipeline, and Docker containers to an `assets/` folder in this repository.
-
+**Project screenshots:** 
 ---
 
 ### 2. CloudOps — Self-Healing Infrastructure Monitoring
