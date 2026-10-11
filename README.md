@@ -12,7 +12,7 @@ I enjoy building hands-on projects that demonstrate how applications are deploye
 - 📊 **Monitoring:** Prometheus, Grafana, Node Exporter
 - 🐧 **Operating Systems:** Linux, Ubuntu
 - 🐍 **Scripting:** Python, Bash fundamentals
-- 📜 **Certification:** AWS Certified Cloud Practitioner — include only if this matches your actual certification
+- 📜 **Certification:** AWS Certified Cloud Practitioner Batch — include only if this matches your actual certification
 
 ## 🛠️ Technical Skills
 
