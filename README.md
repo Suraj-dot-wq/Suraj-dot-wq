@@ -35,52 +35,98 @@ I learn by building hands-on projects involving AWS, Linux, Docker, Terraform, J
 
 ### 1. NexaVault — Multi-User Knowledge & Productivity Platform
 
-A containerized full-stack notes application with an automated CI/CD workflow.
+A full-stack notes application deployed using Docker and AWS, with an automated CI/CD pipeline.
 
-**Tech stack:** React · Django REST Framework · MySQL · Docker · Docker Compose · Nginx · Jenkins · AWS EC2 · Docker Hub · Trivy
+**Tech Stack:** React · Django REST Framework · MySQL · Docker · Docker Compose · Nginx · Jenkins · AWS EC2 · Docker Hub · Trivy
 
-**What I implemented**
-- Containerized application components and managed services using Docker Compose.
-- Configured a Jenkins CI/CD pipeline triggered by GitHub webhooks.
-- Automated Docker image builds and publishing to Docker Hub.
-- Integrated Trivy image vulnerability scanning into the pipeline.
-- Deployed application services on AWS EC2 and used Nginx for web traffic handling.
+#### ⚙️ How the Project Works
 
-**Project repository:** [View NexaVault source code](https://github.com/Suraj-dot-wq/Personal-Notes-App)
+1. **Code Development:** The application source code is maintained in GitHub, with React handling the frontend and Django REST Framework providing backend APIs.
+2. **Pipeline Trigger:** When code changes are pushed to GitHub, a webhook triggers the Jenkins pipeline.
+3. **Build and Scan:** Jenkins builds the Docker images and runs Trivy vulnerability scanning.
+4. **Image Publishing:** The pipeline publishes the application images to Docker Hub.
+5. **Deployment:** Docker Compose manages the application services on AWS EC2.
+6. **Request Handling:** Nginx handles incoming web traffic and routes requests within the deployed application.
+7. **Application Runtime:** The React frontend communicates with the Django backend, which uses MySQL for application data.
 
-**Project screenshots:** Add genuine screenshots of the running application, Jenkins pipeline, and Docker containers to an `assets/` folder in this repository.
+#### 💡 What This Demonstrates
+
+- CI/CD automation using Jenkins and GitHub Webhooks.
+- Containerization and multi-container application management.
+- Docker image publishing and vulnerability scanning.
+- Application deployment and web traffic handling on AWS EC2.
+
+🔗 **Repository:** [Personal Notes App / NexaVault](https://github.com/Suraj-dot-wq/Personal-Notes-App)
 
 ---
 
 ### 2. CloudOps — Self-Healing Infrastructure Monitoring
 
-A cloud operations project combining infrastructure provisioning, Linux monitoring, automated health checks, and tested service recovery.
+A cloud operations project that provisions AWS infrastructure, monitors Linux resources, and attempts automatic recovery of a failed demo service.
 
-**Tech stack:** AWS · Terraform · Linux · Python · Prometheus · Grafana · Node Exporter · Alertmanager · systemd · Cron
+**Tech Stack:** AWS · Terraform · Linux · Python · Prometheus · Grafana · Node Exporter · Alertmanager · systemd · Cron
 
-**What I implemented**
-- Defined AWS infrastructure using Terraform, including a VPC, subnet, internet gateway, routing, security group, and EC2 instance.
-- Configured Prometheus to collect host and application-monitoring infrastructure metrics through Node Exporter.
-- Built Grafana dashboards to visualize CPU, memory, and disk utilization.
-- Configured Prometheus alert rules for high resource utilization.
-- Developed Python scripts to check system resource usage and log health-check results.
-- Implemented and tested recovery of a demo systemd service when it was stopped.
+#### ⚙️ How the Project Works
 
-**Project repository:** [View CloudOps source code](https://github.com/Suraj-dot-wq/CloudOps-Self-Healing-Monitoring)
+**Step 1 — Infrastructure Provisioning**
 
-**Project screenshots:** Add genuine Grafana dashboards, Prometheus target status, and service-recovery logs to an `assets/` folder in this repository.
+Terraform defines the AWS resources required for the monitoring host, including the VPC, subnet, internet gateway, routing, security group, and EC2 instance.
+
+**Step 2 — Metrics Collection**
+
+Node Exporter exposes Linux host metrics, including CPU, memory, and disk statistics. Prometheus scrapes these metrics at configured intervals and stores the collected time series.
+
+**Step 3 — Visualization**
+
+Grafana uses Prometheus as a data source. Dashboards display CPU, memory, and disk utilization so that resource usage can be inspected.
+
+**Step 4 — Alert Evaluation**
+
+Prometheus evaluates configured rules for high CPU, memory, and disk utilization. Alertmanager is configured for alert routing; external email or webhook delivery has not been verified.
+
+**Step 5 — Automated Health Checks**
+
+A Python health-check script uses system metrics to assess CPU, memory, and disk usage and writes its results to a log file. Cron schedules the script to run periodically.
+
+**Step 6 — Service Recovery**
+
+A separate Python self-healing script checks whether `cloudops-demo.service` is active. If the service is inactive, the script attempts to restart it through systemd using the configured permission.
+
+**Step 7 — Recovery Verification**
+
+The recovery workflow was tested by stopping the demo service and verifying that the script could restart it. This demonstrates basic automated service recovery rather than complete infrastructure self-healing.
+
+#### 🔄 CloudOps Workflow
+
+`Terraform → AWS EC2 → Node Exporter → Prometheus → Grafana`
+
+**Independent recovery workflow:**
+
+`Cron → Python Self-Healing Script → systemd Service Restart`
+
+#### 💡 What This Demonstrates
+
+- Infrastructure as Code using Terraform.
+- Linux metrics collection and monitoring.
+- Prometheus alert rules and Grafana dashboards.
+- Python scripting, Cron scheduling, and systemd administration.
+- Tested recovery of a specific demo service.
+
+🔗 **Repository:** [CloudOps Self-Healing Monitoring](https://github.com/Suraj-dot-wq/CloudOps-Self-Healing-Monitoring)
 
 ---
 
 ## 📚 Currently Learning
 
-- PromQL queries, rate calculations, and metric aggregation
-- AWS infrastructure troubleshooting and cloud operations
-- CI/CD pipeline improvements and deployment automation
-- Linux administration and Bash scripting
-- Cloud security, reliability, and cost optimization
+- PromQL: `rate()`, `increase()`, and metric aggregation.
+- AWS infrastructure troubleshooting.
+- CI/CD pipeline design and deployment automation.
+- Linux administration and Bash scripting.
+- Cloud security, reliability, and cost optimization.
 
----
+
+
+
 
 ## 🎓 Education
 
