@@ -49,9 +49,11 @@ A containerized full-stack notes application with an automated CI/CD workflow.
 **Project repository:** [View NexaVault source code](https://github.com/Suraj-dot-wq/Personal-Notes-App)
 
 **Project screenshots:**
-<img width="1917" height="907" alt="Screenshot 2026-10-14 211721" src="https://github.com/user-attachments/assets/4e9f2f78-a393-4dad-99fe-7e5e6de1cdc3" />
-<img width="1915" height="916" alt="Screenshot 2026-10-14 211806" src="https://github.com/user-attachments/assets/40c3f426-b26a-402a-8a28-496e57a0c3d3" />
-<img width="1916" height="911" alt="Screenshot 2026-10-14 211651" src="https://github.com/user-attachments/assets/03bfbc4a-52bd-43cb-ba8e-624889ca48fd" />
+<img width="800" alt="Screenshot 1" src="https://github.com/user-attachments/assets/4e9f2f78-a393-4dad-99fe-7e5e6de1cdc3" />
+
+<img width="800" alt="Screenshot 2" src="https://github.com/user-attachments/assets/40c3f426-b26a-402a-8a28-496e57a0c3d3" />
+
+<img width="800" alt="Screenshot 3" src="https://github.com/user-attachments/assets/03bfbc4a-52bd-43cb-ba8e-624889ca48fd" />
 
 ---
 
