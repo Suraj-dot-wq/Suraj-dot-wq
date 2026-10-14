@@ -73,6 +73,13 @@ A cloud operations project combining infrastructure provisioning, Linux monitori
 
 **Project screenshots:** 
 
+<img width="600" height="798" alt="Screenshot 2026-10-14 225326" src="https://github.com/user-attachments/assets/583ac00f-9692-43fd-a3a8-7f3a157d08e7" />
+<img width="600" height="917" alt="Screenshot 2026-10-14 230519" src="https://github.com/user-attachments/assets/193faa51-642e-40c6-934b-21951788b537" />
+<img width="600" height="912" alt="Screenshot 2026-10-14 230544" src="https://github.com/user-attachments/assets/55dc4f5d-f958-489b-b9b0-f87b1f5d22df" />
+
+
+
+
 ---
 
 ## 📚 Currently Learning
