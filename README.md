@@ -51,7 +51,8 @@ A containerized full-stack notes application with an automated CI/CD workflow.
 **Project screenshots:**
 
 <img width="400" alt="Screenshot 1" src="https://github.com/user-attachments/assets/4e9f2f78-a393-4dad-99fe-7e5e6de1cdc3" /><img width="400" alt="Screenshot 2" src="https://github.com/user-attachments/assets/40c3f426-b26a-402a-8a28-496e57a0c3d3" />
-<img width="400" alt="Screenshot 3" src="https://github.com/user-attachments/assets/03bfbc4a-52bd-43cb-ba8e-624889ca48fd" />
+<img width="400" alt="Screenshot 3" src="https://github.com/user-attachments/assets/03bfbc4a-52bd-43cb-ba8e-624889ca48fd" /><img width="400" alt="Screenshot 2026-10-08 112232" src="https://github.com/user-attachments/assets/9918b8fd-6e82-44be-8692-7916c084678d" />
+
 
 ---
 
