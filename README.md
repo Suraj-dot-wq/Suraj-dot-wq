@@ -102,6 +102,7 @@ Atria Institute of Technology, Bengaluru
 2023–2027
 
 **Certification:** AWS Cloud Practitioner Essential Batch
+**Certification:** DevOps Fundamentals
 
 ---
 
